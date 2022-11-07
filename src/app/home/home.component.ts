@@ -45,7 +45,7 @@ export class HomeComponent {
     "backend": {
       "matIcon": "settings",
       "title": "Backend Developer",
-      "subtitle": "",
+      "subtitle": "I like to code things from scratch, but this is where I make behind the scenes stuff so the website can come to life.",
       "third": {
         "title": "",
         "list": ""

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dosis:wght@400;500&family=Secular+One&display=swap');
 
 .home-container {  
     
@@ -60,54 +60,14 @@
 
     .technology-container {
         background-color: #fff;
+        margin: -128px 110px 128px 110px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         align-content: center;
-
-        .designer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            .designer-title {
-
-            }
-
-            .designer-subtitle {
-
-            }
-
-            .designer-third {
-
-                .third-title {
-
-                }
-
-                .third-list {
-
-                }
-            }
-        }
-
-        .frontend {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .backend {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .database {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+        border-radius: 12px;
+        box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
     }
     
 }
@@ -126,23 +86,57 @@
     color: #fff;
 }
 
-.small-title {
-    // different color than black
-}
-
-.small-text {
-    // font-size:
-    // 
-}
-
 .icon-container {
     background-color: #29339B;
     display: inline-block;
-    padding: 32px;
+    padding: 2em;
     border-radius: 70px;
 
     .icon {
-        transform: scale(3);
+        transform: scale(2.5);
         color: #fff;
     }
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 45px;
+
+    border: 1px solid black;
+}
+
+.title {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 1em;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.third-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.third-list {
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+.fourth-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.fourth-text {
+    font-size: 18px;
 }
