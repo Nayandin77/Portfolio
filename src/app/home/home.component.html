@@ -8,7 +8,7 @@
             {{ text.top.subtitle }}
         </div>
         <div class="home-logo-container">
-            <img src="../../assets/images/wolf.webp" alt="" class="home-logo">
+            <img src="{{ text.top.logoSrc }}" alt="red wolf logo" class="home-logo">
         </div>
     </div>
     
@@ -26,6 +26,9 @@
 
     <div class="technology-container">
         <div class="designer">
+            <div class="icon-container">
+                <mat-icon class="icon">{{ text.designer.matIcon }}</mat-icon>
+            </div>
             <div class="designer-title">
                 {{ text.designer.title }}
             </div>
@@ -33,22 +36,106 @@
                 {{ text.designer.subtitle }}
             </div>
             <div class="designer-third">
-                <div class="third-title small-title">
+                <div class="third-title small-title small-text">
                     {{ text.designer.third.title }}
                 </div>
-                <div class="third-list small-title">
+                <div class="third-list">
                     {{ text.designer.third.list }}
+                </div>
+            </div>
+
+            <div class="designer-fourth">
+                <div class="fourth-title small-title">
+                    {{ text.designer.fourth.title }}
+                </div>
+                <div class="fourth-list small-text">
+                    {{ text.designer.fourth.list }}
                 </div>
             </div>
         </div>
         <div class="frontend">
+            <div class="icon-container">
+                <mat-icon class="icon">{{ text.frontend.matIcon }}</mat-icon>
+            </div>
+            <div class="frontend-title">
+                {{ text.frontend.title }}
+            </div>
+            <div class="frontend-subtitle">
+                {{ text.frontend.subtitle }}
+            </div>
+            <div class="frontend-third">
+                <div class="third-title small-title small-text">
+                    {{ text.frontend.third.title }}
+                </div>
+                <div class="third-list">
+                    {{ text.frontend.third.list }}
+                </div>
+            </div>
 
+            <div class="frontend-fourth">
+                <div class="fourth-title small-title">
+                    {{ text.frontend.fourth.title }}
+                </div>
+                <div class="fourth-list small-text">
+                    {{ text.frontend.fourth.list }}
+                </div>
+            </div>
         </div>
         <div class="backend">
+            <div class="icon-container">
+                <mat-icon class="icon">{{ text.backend.matIcon }}</mat-icon>
+            </div>
+            <div class="backend-title">
+                {{ text.backend.title }}
+            </div>
+            <div class="backend-subtitle">
+                {{ text.backend.subtitle }}
+            </div>
+            <div class="backend-third">
+                <div class="third-title small-title small-text">
+                    {{ text.backend.third.title }}
+                </div>
+                <div class="third-list">
+                    {{ text.backend.third.list }}
+                </div>
+            </div>
 
+            <div class="backend-fourth">
+                <div class="fourth-title small-title">
+                    {{ text.backend.fourth.title }}
+                </div>
+                <div class="fourth-list small-text">
+                    {{ text.backend.fourth.list }}
+                </div>
+            </div>
         </div>
         <div class="database">
+            <div class="icon-container">
+                <mat-icon class="icon">{{ text.database.matIcon }}</mat-icon>
+            </div>
+            <div class="database-title">
+                {{ text.database.title }}
+            </div>
+            <div class="database-subtitle">
+                {{ text.database.subtitle }}
+            </div>
+            <div class="database-third">
+                <div class="third-title small-title small-text">
+                    {{ text.database.third.title }}
+                </div>
+                <div class="third-list">
+                    {{ text.database.third.list }}
+                </div>
+            </div>
 
+            <div class="database-fourth">
+                <div class="fourth-title small-title">
+                    {{ text.database.fourth.title }}
+                </div>
+                <div class="fourth-list small-text">
+                    {{ text.database.fourth.list }}
+                </div>
+            </div>
         </div>
     </div>
 
