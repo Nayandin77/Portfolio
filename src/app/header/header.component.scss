@@ -1,0 +1,42 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+
+    .navigation-icon {
+        flex-grow: 1;
+        border: 1px solid black;
+
+        > button {
+            
+
+            .icon {
+                color: red;
+            }
+        }
+
+        > mat-icon {
+            color: red;
+        }
+    }
+
+    .navigation-empty-space {
+        border: 1px solid black;
+        flex-grow: 2;
+    }
+
+    .navigation-text {
+        border: 1px solid black;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .text {
+
+        }
+    }
+}
