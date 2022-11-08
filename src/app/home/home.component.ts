@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   text: any = {
     "top": {
-      "title": "Designer, Full Stack Developer",
+      "title": "Designer, & Full Stack Developer",
       "subtitle": "I design and create simple and beautiful applications.",
       "logoSrc": "../../assets/images/wolf.webp"
     },
@@ -45,35 +45,30 @@ export class HomeComponent {
     "backend": {
       "matIcon": "settings",
       "title": "Backend Developer",
-      "subtitle": "I like to code things from scratch, but this is where I make behind the scenes stuff so the website can come to life.",
+      "subtitle": "For when browsers need data, gotta have a source from where they come from",
       "third": {
-        "title": "",
-        "list": ""
+        "title": "Languages I use",
+        "list": "Java, Python, NodeJS"
       },
       "fourth": {
-        "title": "",
-        "list": ""
+        "title": "Backend tools:",
+        "list": "IDEA Intellij, VScode, Visual Studio, PyCharm"
       }
     },
     "database": {
       "matIcon": "data_object",
       "title": "Database Usage",
-      "subtitle": "",
+      "subtitle": "I value accessiblity, and constructing a database in order to deliver fast data",
       "third": {
-        "title": "",
-        "list": ""
+        "title": "Databases I use:",
+        "list": "MongoDB, DynamoDB"
       },
       "fourth": {
-        "title": "",
-        "list": ""
+        "title": "DB Tools",
+        "list": "CLI, Terminal, AWS"
       }
     },
 
       
   }
-
-  constructor() { }
-
-
-
 }

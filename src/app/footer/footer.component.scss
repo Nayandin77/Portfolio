@@ -1,0 +1,46 @@
+.footer {
+    background-color: #BF2531;
+    color: white;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        .icon {
+            
+        }
+
+        .text > p {
+            font-size: 1.6rem;
+        }
+
+        .list {
+
+        }
+
+        .copyright > p {
+            font-size: 1.2rem;
+        }
+
+        .framework-container {
+            display: flex;
+            flex-direction: row;
+
+            .ftext {
+
+            }
+            .framework {
+                display: flex;
+                flex-direction: row;
+
+                > img {
+                    height: 36px;
+                    width: 36px;
+                    
+                }
+            }
+        }
+    }
+}

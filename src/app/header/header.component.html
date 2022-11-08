@@ -1,17 +1,17 @@
 <div class="header-container">
     <div class="navigation-icon">
-        <button >
-            <mat-icon class="icon">home</mat-icon>
-        </button>
-    </div>
-
-    <div class="navigation-empty-space">
-        Empty Space
+        <a href="/home">
+            <mat-icon class="icon">{{ text.icon}}</mat-icon>
+        </a>            
     </div>
 
     <div class="navigation-text">
-        <p class="text">Projects</p>
-        <p class="text">Contact</p>
+        <p class="text projects">
+            <a href="/projects">{{ text.link1 }}</a>
+        </p>
+        <p class="text contact">
+            <a href="/contact">{{  text.link2 }}</a>
+        </p>
     </div>
 </div>
 

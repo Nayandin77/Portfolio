@@ -44,15 +44,16 @@
         padding: 128px 64px 256px 64px;
 
         .intro-section {
+            text-align: center;
             
             .intro-title-text {
                 font-family: 'Secular One', sans-serif;
                 padding: 0 6vw;
-                
             }
 
             .intro-paragraph-text {
                 font-family: 'Dosis', sans-serif;
+                font-size: 1.4rem;
                 padding: 0 16vw;
             }
         }
@@ -60,10 +61,12 @@
 
     .technology-container {
         background-color: #fff;
-        margin: -128px 110px 128px 110px;
+        margin: -128px auto 128px auto;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-flow: row wrap;
+        width: auto;
+        flex-grow: 1;
+        max-width: 1200px;
         align-items: center;
         align-content: center;
         border-radius: 12px;
@@ -73,11 +76,6 @@
 }
 
 // shared
-
-.centered {
-    text-align: center;
-}
-
 .black {
     color: #000;
 }
@@ -101,11 +99,13 @@
 .tech {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
     justify-content: center;
     align-items: center;
-    padding: 70px 45px;
-
-    border: 1px solid black;
+    padding: 45px;
+    text-align: center;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
 }
 
 .title {
@@ -118,12 +118,14 @@
 .subtitle {
     font-size: 18px;
     line-height: 1.5;
+    width: 400px;
 }
 
 .third-title {
     margin-top: 50px;
     margin-bottom: 8px;
     font-size: 18px;
+    color: #BF2531;
 }
 
 .third-list {
@@ -135,6 +137,7 @@
     margin-top: 50px;
     margin-bottom: 8px;
     font-size: 18px;
+    color: #BF2531;
 }
 
 .fourth-text {
